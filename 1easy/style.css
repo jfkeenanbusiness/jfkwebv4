@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+canvas {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+script {
+  stroke-width: 5%;
+  stroke: aqua;
+  
+}
+/* canvas {
+  stroke-width: 200px;
+  stroke: aqua;
+  margin-top: 5%;
+} */

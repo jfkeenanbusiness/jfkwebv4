@@ -1,14 +1,56 @@
 html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
-  margin: auto;
-  /* padding-top: 5%; */
-}
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  canvas {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  script {
+    stroke-width: 5%;
+    stroke: aqua;
+    
+  }
+  a {
+    font-family: "Press Start 2P" ;
+    text-decoration: none;
+    color: white;
+  }
 
-script {
-  stroke-width: 5%;
-  stroke: aqua;
+  main {
+    padding: 2%;
+  }
+  p  {
+    font-family: "Press Start 2P" ;
+    text-decoration: none;
+    color: white;
+  }
+
+
+  #r {
+    color: rgb(47, 4, 4);
+  }
+
+
+
+  /* hover effects */
+
+
+  #q:hover {
+    color: rgb(118, 125, 59);
+  }
+
+  #w:hover {
+    color: rgb(255,201,14);
+  }
+
+  #e:hover {
+    color: rgb(135,15,10);
+  }
+
+#r:hover {
+color:  rgb(176, 58, 3);
 }
