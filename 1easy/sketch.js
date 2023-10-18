@@ -4,7 +4,7 @@ var foundTheSquare = false;
 
 let mode = 1;
 let highScore = 1;
-let score = 0;
+let score = 0; 
 let mons = 0;
 let real = highScore;
 let cut = 0;
@@ -127,7 +127,7 @@ function draw() {
     image(holeImg,(mouseX-1000), (mouseY-1000), 2000, 2000,);  
     // image(holeImg,(mouseX-500), (mouseY-500), 1000, 1000 );
     text
-    if (frameCount == (600)) {
+    if (frameCount == (1100)) {
       mode = 4; end.loop();}
 
   } else { mode = 3;  }
@@ -176,24 +176,24 @@ if (mode == 4) {
   textSize(32);
   textAlign(CENTER);
   textSize(40);
-  if (frameCount <880){fill(255);
+  if (frameCount <880+500){fill(255);
   text("GAME OVER", width/2,height/2);}
   textSize(20);
  if (score<highScore){score=highScore;  fill(0,255,0)}
   
   
- if (frameCount > 660){
+ if (frameCount > 660+500){
   
   text("Died Night "+(highScore),width-200, height-500)
 
 
 
 }
-if (frameCount > 720){
+if (frameCount > 720+500){
   text("High Score: "+(score),(width-210), height-425)
   }
 
-  if (frameCount > 880){
+  if (frameCount > 880+500){
     textSize(30);
     text("Click to Continue",width/2, height/2);
     }
